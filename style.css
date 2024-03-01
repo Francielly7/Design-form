@@ -97,3 +97,28 @@ h1 {
 .orange {
     color: #ff6347; 
 }
+
+@media only screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    .content{
+        padding:10px
+    }
+
+    .note {
+        display: none;
+    }
+    form {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+}
